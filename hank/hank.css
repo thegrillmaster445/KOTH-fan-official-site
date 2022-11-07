@@ -1,0 +1,105 @@
+body {
+	position: fixed;
+	background-image: url('koth-back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#sample {
+	position: fixed;
+	bottom: 0;
+}
+
+#dia * {
+	position: fixed;
+	
+	font-size: 1.5vw;
+	-webkit-text-stroke: .05vw black;
+	color: white;
+	font-weight: 900;
+}
+
+#hank-text {
+	top: 7vw;
+	left: 45vw;
+	
+	visibility: hidden;
+}
+
+#bill-text {
+	top: 10.5vw;
+	left: 88vw;
+	
+	visibility: hidden;
+}
+
+#dale-text {
+	top: 10vw;
+	left: 65vw;
+	
+	visibility: hidden;
+}
+
+#boomhauer-text {
+	top: 10vw;
+	left: 25vw;
+	
+	visibility: hidden;
+}
+
+#btns * {
+	z-index: 2;
+	
+	background: white;
+	border-radius: .2vw;
+}
+
+.button1 {
+	position: fixed;
+	height: 1.4vw;
+	width: 4vw;
+	
+	top: 3vh;
+	left:18.2vw;
+}
+
+.button2 {
+	position: fixed;
+	height: 1.4vw;
+	width: 4vw;
+	
+	top: 3vh;
+	left:38.8vw;
+}
+
+.button3 {
+	position: fixed;
+	height: 1.4vw;
+	width: 4vw;
+	
+	top: 3vh;
+	left:58.7vw;
+}
+
+.button4 {
+	position: fixed;
+	height: 1.4vw;
+	width: 4vw;
+	
+	top: 3vh;
+	left:80.8vw;
+}
+
+.button1:hover {
+	transform: scale(1.04);
+}
+.button2:hover {
+	transform: scale(1.04);
+}
+.button3:hover {
+	transform: scale(1.04);
+}
+.button4:hover {
+	transform: scale(1.04);
+}
+
